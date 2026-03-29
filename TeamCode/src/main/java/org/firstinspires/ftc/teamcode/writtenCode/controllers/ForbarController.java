@@ -18,7 +18,7 @@ public class ForbarController {
     public ForbarStatus currentStatus= ForbarStatus.UP;
     public ForbarStatus previousStatus=null;
 
-    public static double forbarCollectPosition=0.64;
+    public static double forbarCollectPosition=0.65;
     public static double forbarUpPosition=1;
     public static double forbarDefensePosition=0.47;
 

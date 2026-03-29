@@ -23,7 +23,7 @@ public class Constants {
             .secondaryTranslationalPIDFCoefficients(new PIDFCoefficients(0.1,0,0.01,0))
             .headingPIDFCoefficients(new PIDFCoefficients(1, 0, 0.001, 0.05))
             .secondaryHeadingPIDFCoefficients(new PIDFCoefficients(0.1,0,0.01,0))
-            .drivePIDFCoefficients(new FilteredPIDFCoefficients(0.003,0.0,0.0001,0.6,0.03))
+            .drivePIDFCoefficients(new FilteredPIDFCoefficients(0.009,0.0,0.0001,0.6,0.03))
             .secondaryDrivePIDFCoefficients(new FilteredPIDFCoefficients(0.02,0,0.000005,0.6,0.01))
             ;
 
@@ -41,7 +41,7 @@ public class Constants {
             .yVelocity(58.33)
             ;
 
-    public static PathConstraints pathConstraints = new PathConstraints(0.99, 100, 1, 1);
+    public static PathConstraints pathConstraints = new PathConstraints(0.99, 100, 0.7, 1);
 
     public static PinpointConstants localizerConstants = new PinpointConstants()
             .forwardPodY(-2.42)//1.36

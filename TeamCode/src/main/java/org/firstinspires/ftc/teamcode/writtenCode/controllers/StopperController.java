@@ -17,8 +17,8 @@ public class StopperController {
     public StopperStatus currentStatus= StopperStatus.NOSHOOT;
     public StopperStatus previousStatus=null;
 
-    public static double stopperOffPosition=0.5;
-    public static double stopperOnPosition=0.75;
+    public static double stopperOffPosition=0.47;
+    public static double stopperOnPosition=0.72 ;
 
     public Servo stopper = null;
 
